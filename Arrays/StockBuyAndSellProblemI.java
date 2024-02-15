@@ -1,5 +1,5 @@
 class StockBuyAndSellProblemI{
-	
+	//you can buy only once and sell it once
 	public static int maxProfitOfStock(int[] arr){
 		int maxProfit=0;
 		int min=arr[0];

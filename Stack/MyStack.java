@@ -40,15 +40,20 @@ class MyStack{
 		System.out.println();
 	}
 
+	// public void removeElements(int k){
+	// 	for(int i=0;i<=top;i++){
+	// 		if(arr[i]==k){
+	// 			for(int j=i;j<top;j++){
+	// 				arr[j]=arr[j+1];
+	// 			}
+	// 			top--;
+	// 		}
+	// 	}
+	// }
+
+	//second approach
 	public void removeElements(int k){
-		for(int i=0;i<=top;i++){
-			if(arr[i]==k){
-				for(int j=i;j<top;j++){
-					arr[j]=arr[j+1];
-				}
-				top--;
-			}
-		}
+		
 	}
 
 	public boolean isEmpty(){

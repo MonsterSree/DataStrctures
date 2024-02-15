@@ -7,6 +7,7 @@ class NextGreater{
 		Stack<Integer> stack=new Stack<>();
 		int[] result=new int[arr.length];
 		int position=arr.length-1;
+		stack.push(arr[position]);
 		result[position--]=-1;
 		for(int i=arr.length-2;i>=0;i--){
 
@@ -23,7 +24,7 @@ class NextGreater{
 
 	
 	public static void main(String[] args) {
-		int[] arr={1,3,4,2};
+		int[] arr={1,3,4,7};
 		int[] res=nextGreater(arr);
 
 		for(int element:res){

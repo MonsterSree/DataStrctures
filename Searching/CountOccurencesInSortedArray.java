@@ -54,6 +54,14 @@ class CountOccurencesInSortedArray{
 	public static void main(String[] args) {
 		// int[] arr={10,20,20,20,30,30};
 		int[] arr={10,20,20,20,30,30,30};
+		/*
+		mid=3;
+		start=4;
+		end=6;
+		mid=5;
+		start=4,
+		end=4;
+		*/
 		int k=30;
 		System.out.println(countOccurence(arr,k));
 	}

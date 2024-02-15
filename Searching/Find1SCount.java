@@ -23,6 +23,8 @@ class Find1SCount{
 		/*
 		start=0,end=7;
 		mid=3;
+		start=mid+1=>4,end=7
+		mid=5
 
 		*/
 		int[] arr1={0,0,0,1};
