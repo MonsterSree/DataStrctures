@@ -1,6 +1,6 @@
 class KthBit{
 	public static boolean isKthBitSet(int n,int k){
-		n=n>>(k-1);
+		n=n>>(k);
 		return (n&1) != 0;
 	}
 	public static void main(String[] args) {

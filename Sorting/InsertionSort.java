@@ -8,7 +8,6 @@ class InsertionSort{
 				j--;
 			}
 			arr[j+1]=key;
-
 		}
 	}
 	public static void main(String[] args) {
