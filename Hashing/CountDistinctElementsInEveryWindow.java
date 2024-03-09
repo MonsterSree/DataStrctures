@@ -12,8 +12,8 @@ class CountDistinctElementsInEveryWindow{
 			int count=map.getOrDefault(nums[i],0);
 			count++;
 			map.put(nums[i],count);
-			if(map.get(nums[i-1])==1){
-				map.remove(nums[i-1]);
+			if(map.get(nums[i-k])==1){
+				map.remove(nums[i-k]);
 			}
 			System.out.println(map.size());
 		}

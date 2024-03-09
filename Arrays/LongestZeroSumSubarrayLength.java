@@ -11,14 +11,12 @@ public class LongestZeroSumSubarrayLength {
                 max=Math.max(i+1,max);
 
             }
-            else{
-                if(map.keySet().contains(sum)){
-                    int index=map.get(sum);
-                    max=Math.max(i-index,max);
-                }
-                else{
-                    map.put(sum,i);
-                }
+            if(map.get(sum)==null){
+                map.putIfAbsent(sum,i);
+            }
+            if(map.get(sum)!=null){
+                int index=map.get(sum);
+                max=Math.max(i-index,max);
             }
 
         }
